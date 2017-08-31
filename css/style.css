@@ -1,0 +1,73 @@
+h3 {
+	font-family: Calibri;
+	background-color: #edc53f;
+	width: 380px;
+	padding: 10px;
+	color: #FFF;
+	border-radius: 8px;
+}
+.container {
+	overflow: hidden;
+	background: #BBADA0;
+	width: 400px;
+	border-radius: 8px;
+	position: relative;
+}
+.container  .row {
+	overflow: hidden;
+	clear: both;
+}
+.container  .row .col {
+	width: 80px;
+	height: 80px;
+	border: 1px solid;
+	margin: 10px;
+	float: left;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 60px;
+	font-family: Calibri;
+	font-weight: bold;
+	background-color: #F2B179;
+	border: none;
+	color: #FFF;
+}
+.score-container {
+	font-size: 18px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #eee4da;
+    background-color: #776E65;
+    margin-top: 20px;
+    width: 175px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.score-container .score {
+	color: #FFF;
+	font-size: 32px;
+}
+.new-game {
+	font-size: 32px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #eee4da;
+	background-color: #776E65;
+	margin-top: 20px;
+	width: 175px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.message {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    background-color: #CCC;
+    opacity: 0.6;
+    line-height: 400px;
+    font-size: 36px;
+    font-family: Calibri;
+	display: none;
+}
